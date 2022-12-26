@@ -42,6 +42,7 @@
         android:scaleType="centerCrop"
         android:src="@drawable/it"
         android:visibility="visible"
+        android:layout_marginBottom="20sp"
         app:layout_constraintBottom_toTopOf="@+id/radioGroup"
         app:layout_constraintEnd_toEndOf="@+id/text_ball"
         app:layout_constraintStart_toStartOf="parent"
@@ -53,7 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50sp"
-        android:layout_marginBottom="50sp"
+        android:layout_marginBottom="10sp"
         app:layout_constraintBottom_toTopOf="@+id/button_tasdiqlash"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints">
@@ -109,5 +110,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_ball" />
+
+    <TextView
+        android:id="@+id/image_savol_matni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+        tools:layout_editor_absoluteX="160dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
