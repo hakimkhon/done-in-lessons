@@ -1,7 +1,7 @@
 package uz.hakimkhon.lesson.model;
 
-public class QuiaData {
-    private String textSavol;
+public class QuizData {
+    private String Savol;
     private int imgSavol;
     private String imgSavolMatni;
     private String variant1;
@@ -10,8 +10,8 @@ public class QuiaData {
     private String variant4;
     private String javob;
 
-    public QuiaData(String textSavol, int imgSavol, String imgSavolMatni, String variant1, String variant2, String variant3, String variant4, String javob) {
-        this.textSavol = textSavol;
+    public QuizData(String Savol, int imgSavol, String imgSavolMatni, String variant1, String variant2, String variant3, String variant4, String javob) {
+        this.Savol = Savol;
         this.imgSavol = imgSavol;
         this.imgSavolMatni = imgSavolMatni;
         this.variant1 = variant1;
@@ -21,8 +21,8 @@ public class QuiaData {
         this.javob = javob;
     }
 
-    public String getTextSavol() {
-        return textSavol;
+    public String getSavol() {
+        return Savol;
     }
 
     public int getImgSavol() {
